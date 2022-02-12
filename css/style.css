@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-main{
+.main{
     background-color: #1985A1;
     color: #061223;
     display: flex;
@@ -11,31 +11,32 @@ main{
     margin: 0;
 }
 
-title{
+.title{
     font-size: 50px;
-
 }
 
-img-div{
-
-}
-
-image{
-
-}
-
-tribute-info{
-
-}
-
-tribute-link{
-
-}
-
-img{
+.img-container{
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-p{
+.img-container img{
+    margin-bottom: 20px;
+}
+
+.tribute-info{
+
+}
+
+.tribute-link{
+
+}
+.tribute-info h2{
+
+}
+
+.tribute-info p{
 
 }
